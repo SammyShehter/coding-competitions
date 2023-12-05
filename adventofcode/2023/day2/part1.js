@@ -1,5 +1,5 @@
 const fs = require('fs');
-// NOTE: I did change ; to , in the input file
+// NOTE: I did manipulate in the input file
 const x = fs.readFileSync('input.txt').toString().split('\n')
 
 const possibleGames = []
